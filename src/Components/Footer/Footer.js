@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaTypo3, FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { Button } from '../Button/index'
 import './Footer.css'
@@ -58,6 +59,21 @@ function Footer() {
                     <Link to='/' className="footer__links__item">Instagram</Link>
                     <Link to='/' className="footer__links__item">Twitter</Link>
                     <Link to='/' className="footer__links__item">Youtube</Link>
+                </div>
+            </div>
+            <div className="footer__wrapper footer__wrapper--display-grid">
+                <Link to="/" className="footer__logo">
+                    CMK-TRVL <FaTypo3 />
+                </Link>
+                <span className="footer__copyright">
+                    CMK-TRVL © 2020
+                </span>
+                <div className="footer__socials">
+                    <FaFacebook className="footer__socials__item" />
+                    <FaInstagram className="footer__socials__item" />
+                    <FaLinkedin className="footer__socials__item" />
+                    <FaYoutube className="footer__socials__item" />
+                    <FaTwitter className="footer__socials__item" />
                 </div>
             </div>
         </div>
