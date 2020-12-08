@@ -17,7 +17,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar__container">
-                    <Link to="/" className="navbar__logo">
+                    <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
                         CMK-TRVL <FaTypo3 />
                     </Link>
                     <div onClick={() => setClick(!click)} className="navbar__menuIcon">
@@ -40,7 +40,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="navbar__button">
-                            <Button buttonStyle="btn--outline">Sign Up</Button>
+                            <Button buttonStyle="btn--outline" onClick={closeMobileMenu}>Sign Up</Button>
                         </li>
                     </ul>
                 </div>

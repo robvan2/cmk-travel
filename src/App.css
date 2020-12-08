@@ -10,32 +10,32 @@
 .products,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: 100vh;
+  width: 100%;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  color: #fff;
+  word-break: break-all;
 }
 
 .services {
+  background-image: url("./images/img-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 .products {
+  background-image: url("./images/img-4.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 .sign-up {
+  background-image: url("./images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
